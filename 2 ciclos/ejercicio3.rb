@@ -15,7 +15,7 @@ i = 1
 while i < 990
   restante = 990 % i
    puts 'Calculado con while: ' + i.to_s if restante == 0
-  i = i + 1  
+  i += 1  
 end  
 
 

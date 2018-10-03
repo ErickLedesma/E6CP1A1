@@ -13,9 +13,9 @@ b = ''
 
 b = "<ul>\n"
 a.times do
-  b = b + "<li> hola </li>\n"
+  b += "<li> hola </li>\n"
 end
-b = b + "<ul>\n"
+b += "<ul>\n"
 puts b
 
 

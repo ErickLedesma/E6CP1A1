@@ -13,6 +13,14 @@
  par
 =end
 
+#a = 10
+#a.times do |i|
+#  puts i
+#  if i.even?
+#    puts 'par'
+#  end
+#end
+
 a = 10
 a.times do |i|
   i = i + 1
