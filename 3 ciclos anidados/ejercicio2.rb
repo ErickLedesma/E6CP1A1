@@ -24,3 +24,21 @@ Generar el código para imprimir la siguiente tabla:
   <tbody>
  </table>
 =end
+
+tabla = "<table>\n<tbody>\n\t<tr>\n"
+12.times do |i|
+  tabla += "\t\t<td> #{(i + 1).to_s} </td>\n"
+  tabla += "\t\t</tr>\n\t\t<tr>\n" if (( (i + 1) % 4) == 0 )
+end  
+tabla += "\t<tr>\n</tbody>\n</table>\n"
+puts tabla
+
+
+
+
+
+
+
+
+
+
