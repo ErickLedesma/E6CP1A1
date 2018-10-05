@@ -4,7 +4,6 @@
 restante = 0
 i = 0
 
-
 989.times do |i| 
   restante = 990 % (i + 1)
   puts 'Calculado con times: ' + (i + 1).to_s if restante == 0  

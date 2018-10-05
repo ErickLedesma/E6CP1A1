@@ -4,21 +4,16 @@
 a = false
 b = true
 
-# if a == true
-#   if b == true
-#     puts 'Lograste A y B!'
-#   else
-#     puts 'Lograste A! Pero no B!'
-#   end
-# else
-#   puts 'No lograste A ni B!'
-# end
+if a 
+  if b 
+    puts 'Lograste A y B!'
+  else
+    puts 'Lograste A! Pero no B!'
+  end
+else
+  puts 'No lograste A ni B!'
+end
 
-puts 'Lograste A y B!' if a && b  
-puts 'Lograste A! Pero no B!' if a && !b
-puts 'No lograste A ni B!' if !a && !b  
-# Agregado, para hacer todas las posibilidades
-puts 'No lograste A ni B!' if !a && b  
 
 
 

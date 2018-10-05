@@ -14,7 +14,6 @@ b = 'falso'
 #   end
 # end
 
-puts ':)'  if a = 'verdadero' 
-puts ':|'  if a != 'verdadero' && b = 'verdadero' 
-puts ':('  if a != 'verdadero' && !b = 'verdadero'
+a == 'verdadero' ? (puts ':)') : b == 'verdadero' ? (puts ':|') : (puts ':(')
+
 
